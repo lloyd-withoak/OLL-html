@@ -538,6 +538,10 @@ font-weight: bold;
   padding: 1% 10%;
   border-radius: 30px;
 }
+.btn-toggle:hover {
+  color: white;
+  border: 1px solid white !important;
+}
 
 .dropup-menus {
   background: black;
@@ -554,7 +558,15 @@ font-weight: bold;
       left: 0;
     }
 }
+.li-anchor {
+  color: white !important;
+  text-decoration: none !important;
+}
 
+.anchor-titles {
+  color: black;
+  text-decoration: none;
+}
 .border-menu-left {
   border: 1px solid gray;
   border-left: 0;
@@ -1316,6 +1328,11 @@ select.form-control:focus {
   border-radius: 20px;
   width: 100%;
   text-align: left;
+}
+.oll-dropdown:hover {
+  background: none;
+  border: 1px solid white !important;
+  color: white !important;
 }
 .btn-go {
   width: 72%;
